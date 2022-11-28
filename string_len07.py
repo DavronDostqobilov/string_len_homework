@@ -22,4 +22,4 @@ def main(s1,s2,s3):
         return f'[{s3}]'
     else:
         return '[]'
-print(main('codes','prograw','atrew'))
+print(main('code','prograe','atree'))
