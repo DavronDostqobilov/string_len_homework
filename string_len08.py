@@ -8,4 +8,9 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    k=len(s)
+    if k%2==1:
+        return s[k//2]
+    else:
+        return s[k//2-1]+s[k//2]
+print(main('ahoolb'))
