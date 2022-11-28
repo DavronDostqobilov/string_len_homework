@@ -7,8 +7,8 @@ def main(s1,s2):
     Returns:
         shortest string
     """
-    if len(s1)>len(s2):
-        return s2
-    else:
+    if len(s1)<len(s2):
         return s1
-print(main('coders','programming'))
+    else:
+        return s2
+print(main('coders','progra'))
