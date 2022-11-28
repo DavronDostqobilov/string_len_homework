@@ -9,17 +9,17 @@ def main(s1,s2,s3):
         string
     """
     if len(s1)%2==1 and len(s2)%2==1 and len(s3)%2==1:
-        return f'[{s1},{s2},{s3}]'
+        return [s1],[s2],[s3]
     elif len(s2)%2==1 and len(s3)%2==1:
-        return f'[{s2},{s3}]'
+        return [s2],[s3]
     elif len(s1)%2==1 and len(s2)%2==1:
-        return f'[{s1},{s2}]'
+        return [s1],[s2]
     elif len(s1)%2==1:
-        return f'[{s1}]'
+        return [s1]
     elif len(s2)%2==1:
-        return f'[{s2}]'
+        return [s2]
     elif len(s3)%2==1:
-        return f'[{s3}]'
+        return [s3]
     else:
         return '[]'
 print(main('code','prograe','atree'))
